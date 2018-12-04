@@ -1,0 +1,2 @@
+cannabis_stocks.txt
+babyformula_stocks.txt
