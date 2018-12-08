@@ -1,2 +1,4 @@
 cannabis_stocks.txt
 babyformula_stocks.txt
+blockchain_stocks.txt
+agtech_stocks.txt
