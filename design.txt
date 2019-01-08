@@ -1,37 +1,12 @@
 the stocks in the indices will be stored in txt files
 the list of indices will be stored in a txt file and read into the system when it starts
 the stock files will be read in when the system starts
-the database will stored
-  the stock codes, the values and the dates for each stock in an index.
-  the value of the index on each dates
+the stockindex table in mysql will store Index Code, Constituent Ticker code
+When the system is started up, the table is deleted and reloaded from the /data txt files
+The system will calculate the difference in values for each index:
 
-  each index will be a dict named with indexnamedate
-    each entry in the dict is key = stockcode  value = stockprice)
+                    Current, Yesterday, Last Week, Last Month, Last Year.
+Index Code1
+Index Code2
 
-    the index values will be SET with the key being the index name and date. 
-    the value assigned to the key will be the value of the index.
-
-
-
-
-
-    cannabis_stocks2018-11-21 { ABC : 1000.00, CDE 150.00, .........}
-    babyformula_stocks2018-11-21{FGH : 20.00.....................}
-    .
-    .
-    .
-    cannabis_stocks2018-11-22 {ABC :1002, CDE 149.00............}
-    .
-
-    set key = cannabis2018-11-21 value = total of prices
-
-program starts:
-for each entry in list.txt
-  open file, read code, get price, store in pickledb dict add to total accumulator
-  store index value in database
-
-  Notes on pickledb
-  OK to load a non-existent file True
-  OK to set a value for an existing key True
-  NOT ok to set a value in a non existent dictionary. Does not create.
-
+ 

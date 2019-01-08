@@ -2,3 +2,8 @@ cannabis_stocks.txt
 babyformula_stocks.txt
 blockchain_stocks.txt
 agtech_stocks.txt
+defence_stocks.txt
+AI_stocks.txt
+automotive_stocks.txt
+cancerfighter_stocks.txt
+diningout_stocks.txt
